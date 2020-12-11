@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="application">
+      <UniqueIdentifier>{e9d43b33-da6d-4e0b-b0cf-9e19172212fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{8bd53e9b-c704-4113-b3b3-717456851484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor">
+      <UniqueIdentifier>{cc549b8f-1e50-4ac9-9968-bed0ffaea713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\glfw3_glew">
+      <UniqueIdentifier>{b8d61c7f-64ba-436f-9b89-72e6f4b05d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\GLFW">
+      <UniqueIdentifier>{0c23b50d-2ce0-4843-92f8-08d5e1b727d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\GLEW">
+      <UniqueIdentifier>{551e045d-65b8-4aef-a3e0-c11f8833bdd1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="application\application.cpp">
+      <Filter>application</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\glfw3_glew\glfw3_glew.cpp">
+      <Filter>renderer\glfw3_glew</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\Bezier.cpp">
+      <Filter>renderer\glfw3_glew</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="renderer\glfw3_glew\glfw3_glew.h">
+      <Filter>renderer\glfw3_glew</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glew\glew.h">
+      <Filter>vendor\GLEW</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\GLFW\glfw3.h">
+      <Filter>vendor\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\GLFW\glfw3native.h">
+      <Filter>vendor\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\Bezier.h">
+      <Filter>renderer\glfw3_glew</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="vendor\glew\glew32.lib">
+      <Filter>vendor\GLEW</Filter>
+    </Library>
+    <Library Include="vendor\glew\glew32s.lib">
+      <Filter>vendor\GLEW</Filter>
+    </Library>
+    <Library Include="vendor\GLFW\glfw3.lib">
+      <Filter>vendor\GLFW</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

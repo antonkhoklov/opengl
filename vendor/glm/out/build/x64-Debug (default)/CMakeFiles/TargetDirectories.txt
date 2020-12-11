@@ -1,0 +1,2 @@
+C:/Users/yeroe/OneDrive/coding/animation app sourcecode/animation app prototype/vendor/glm/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+C:/Users/yeroe/OneDrive/coding/animation app sourcecode/animation app prototype/vendor/glm/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir
